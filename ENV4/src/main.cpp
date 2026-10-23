@@ -10,6 +10,7 @@ struct Bullet {
   bool active;
   int x;
   int y;
+  int Z;
 };
 
 void drawPacman(int x, int y, int radius, uint16_t color, bool facingRight) {
